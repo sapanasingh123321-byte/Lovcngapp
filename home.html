@@ -1,0 +1,65 @@
+<html>
+  <head><title>home</title></head>
+  <style>
+  body{
+    background:linear-gradient(#bcc9f0,white,white,#4766c5);
+  }
+    .welcome{
+      
+      border-radius: 15px;
+      height: 200px;
+      width: 90%;
+     background:linear-gradient( #4766c5 , #768bcb);
+    }
+    h1{
+      color:#4766c5 ;
+      font-size: 170px;
+    }
+        .btn1{
+          cursor: pointer;
+      color: white;
+      border: none;
+  background:linear-gradient( #4766c5 , #768bcb);
+      border-radius: 15px;
+      height: 100px;
+      width: 800px;
+      font-size: 50px;
+  
+    }
+    
+    .btn2{
+      cursor: pointer;
+      color: white;
+      border:none;
+      background:linear-gradient(#9fa2ab, #cacdd6);
+      border-radius: 15px;
+      height: 100px;
+      width: 800px;
+      font-size: 50px;
+      
+    }
+    img{
+      border-radius:15px;
+    }
+  </style>
+  <body>
+
+  
+  <h1>👋 Hello!</h1>
+           <center><br><br>
+      <img src="moti.gif" height="800px" width="800px"><br><br><br><br>
+            <button onclick="about()"class="btn1">About</button>
+      <br><br><br><br>
+      <button onclick="back()" class="btn2">Back</button>
+      
+      </center>
+  </body>
+  <script>
+    function back(){
+      open("index.html");
+    }
+    function about(){
+      open("About.html");
+    }
+  </script>
+</html>
